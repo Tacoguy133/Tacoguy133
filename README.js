@@ -17,7 +17,7 @@ elements.supercool = {
 elements.hyperheat = {
     color: "#ff5f5f",
     tool: function(pixel) {
-        pixel.temp += 50;
+        pixel.temp += 50000;
 		pixelTempCheck(pixel)
     },
     category: "tools",
